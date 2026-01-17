@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>Dependencia Tecnologica</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h3> Una lista de las dependencias tecnológicas más comunes:</h3>
+        <ul>
+            <li>Redes sociales y mensajeros: Las personas pueden pasar demasiado tiempo en las redes sociales y los mensajeros, reduciendo el tiempo que pasan en el mundo real. Además, esto les lleva a depender de actualizaciones constantes de noticias y mensajes.</li>
+            <li>Teléfonos inteligentes y tabletas: Los teléfonos inteligentes y las tabletas pueden convertirse en la principal forma de comunicarse con el mundo, y la gente puede volverse dependiente de comprobar constantemente las notificaciones, retuitear y navegar por las redes sociales y los mensajeros.</li>
+            <li>Juegos y entretenimiento en línea: Los juegos y el ocio en línea pueden crear adicción y llevar a la gente a pasar demasiado tiempo en el mundo virtual en lugar de en la vida real.</li>
+            <li>Compras por Internet y compras en línea: Las personas pueden volverse adictas a las compras en línea, sobre todo si las utilizan para satisfacer necesidades emocionales.</li>
+            <li>Servicios de vídeo y streaming en línea: las personas pueden pasar demasiado tiempo en sitios web de alojamiento de vídeos y servicios de streaming, lo que puede provocar una pérdida de tiempo y un menor interés por el mundo real.</li>
+            <li>Programas y aplicaciones informáticas: Las personas pueden volverse adictas a determinados programas y aplicaciones que pueden distraerlas de su trabajo o sus estudios.</li>
+            <li>Tecnologías de Inteligencia Artificial: las personas pueden volverse dependientes del uso de tecnologías de inteligencia artificial, como los asistentes de voz, lo que puede provocar la degradación de las capacidades de comunicación y toma de decisiones.</li>
+            <li>Dispositivos domésticos inteligentes: las personas pueden volverse dependientes del uso de dispositivos domésticos inteligentes, como los asistentes de voz, lo que puede provocar la degradación de las capacidades de comunicación y toma de decisiones.</li>
+            <li>Criptomonedas y blockchain: la gente puede volverse adicta al amasijo de criptodivisas, lo que pone en peligro su estabilidad financiera.
+Además, algunas personas tienden a fascinarse demasiado con la tecnología blockchain. Por ejemplo, pueden pasar demasiado tiempo en plataformas de negociación y grupos de debate, o invertir demasiado dinero en criptodivisas, lo que puede acarrearles problemas financieros y la pérdida de interés por el mundo real. Para evitar estos problemas, es importante ser consciente de su dependencia de las criptodivisas y la tecnología blockchain y utilizarlas con moderación y prudencia.</li>
+            <li>Tecnologías de realidad virtual y aumentada: las personas pueden volverse dependientes del uso de las tecnologías de realidad virtual y aumentada, lo que puede provocar una disminución del interés por el mundo real y la degradación de las habilidades comunicativas.</li>
+        <iframe src="https://www.meteoblue.com/es/tiempo/widget/daily/?geoloc=detect&days=7&tempunit=CELSIUS&windunit=KILOMETER_PER_HOUR&precipunit=MILLIMETER&coloured=monochrome&pictoicon=1&maxtemperature=1&mintemperature=1&windspeed=1&windgust=1&winddirection=0&uv=0&humidity=0&precipitation=1&precipitationprobability=1&spot=1&pressure=0&layout=light&user_key=5664c979798fb57f&embed_key=8ecc9e318cd9e015&sig=43a2f677bf47f5e7cffb5f36c7fa41fe191b70ac4bcc42fdbb47cc6f46d7a463" frameborder="0" scrolling="NO" allowtransparency="true" sandbox="allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox" style="width: 378px;height: 342px;border: 0;overflow: hidden;"></iframe><div><!-- DO NOT REMOVE THIS LINK --><a href="https://www.meteoblue.com/es/tiempo/semana/index" target="_blank" rel="noopener">meteoblue</a></div>
+        <div id="reloj" style="font-family: 'Arial', sans-serif; font-size: 30px; color: #333; background: #f0f0f0; padding: 10px; border-radius: 8px; text-align: center; width: 200px;">
+  00:00:00
+</div>
+<script>
+  function actualizarReloj() {
+    const ahora = new Date();
+    document.getElementById('reloj').innerHTML = ahora.toLocaleTimeString();
+  }
+  setInterval(actualizarReloj, 1000);
+</script>
+
+    </ul>
+    </body>
+</html>
